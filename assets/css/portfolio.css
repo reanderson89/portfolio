@@ -1,0 +1,5 @@
+/* formatting for the images in the container */
+.img-thumbnail {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
