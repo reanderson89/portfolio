@@ -3,3 +3,23 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.code-div {
+  margin-top: 47px;
+}
+
+.weather-div {
+  margin-top: 31px;
+}
+
+@media only screen 
+  and (min-device-width: 350px) 
+  and (max-device-width: 500px) { 
+
+    .code-div{
+      margin-top: 0px;
+    }
+    .weather-div {
+      margin-top: 0px;
+    }
+  }

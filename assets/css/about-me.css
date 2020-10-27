@@ -1,0 +1,16 @@
+/* this fixed an issue on the about me page. Got rid of extra white space under navbar */
+#about-header {
+  margin-bottom: -25px;
+}
+
+/* formatting for main image on page. */
+.aboutMe-img {
+  float: left;
+  margin-right:15px;
+}
+
+/* formatting for main image on page */
+.img-thumbnail {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

@@ -8,7 +8,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
-    <!-- Reset.css first then, Bootstrap, style.css, portfolio.css -->
+    <!-- Reset.css first then, Bootstrap, style.css, index.css -->
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
     <link
       rel="stylesheet"
@@ -17,17 +17,16 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/portfolio.css" />
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/about-me.css" />
+    <title>About</title>
   </head>
 
   <body>
     <!-- Navigation bar and header for the page -->
-    <header class="container-fluid">
+    <header class="container-fluid" id="about-header">
       <section class="row">
         <nav class="navbar navbar-expand-md navbar-light bg-light col-md-12">
-          <a href="index.html"><span id="name" class="navbar-brand mb-0 h1">Robert Anderson</span></a>
-          <button
+          <a href="index.html"><span id="name" class="navbar-brand mb-0 h1">Robert Anderson</span></a>          <button
             class="navbar-toggler"
             type="button"
             data-toggle="collapse"
@@ -40,74 +39,76 @@
           </button>
           <section class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <section class="navbar-nav ml-auto">
-              <!-- links to the other pages -->
+              <!-- Links to the other pages -->
               <a class="nav-link ml-auto" href="contact.html">Contact</a>
-              <a id="home" class="nav-link active ml-auto" href="portfolio.html"
-                >Portfolio <span class="sr-only">(current)</span></a
+              <a class="nav-link ml-auto" href="portfolio.html">Portfolio</a>
+              <a id="home" class="nav-link active ml-auto" href="about-me.html"
+                >About <span class="sr-only">(current)</span></a
               >
-              <a class="nav-link ml-auto" href="about-me.html">About</a>
             </section>
           </section>
         </nav>
       </section>
     </header>
 
-    <!-- Main section containing all of the images in the container. -->
+    <!-- Main body of the page, contains about me information and image. -->
     <main class="container">
       <section class="row">
         <section class="col-md-12">
-          <h1>Portfolio</h1>
-          <!-- Line under heading -->
+          <h1>About Me</h1>
           <hr />
         </section>
       </section>
-      <!-- all images in container -->
-      <!-- project1 -->
+
       <section class="row">
-        <section class="col-sm-6">
-          <img id="searchU-app" src="assets/images/searchU.jpg" alt="university search app" class="img-thumbnail" />
-          <h3><a href="https://reanderson89.github.io/searchu-project1/">Search U</a></h3>
-          <p><a href="https://github.com/reanderson89/searchu-project1">Search U Repository on GitHub</a> </p>
-        </section>
-<!-- weather app -->
-        <section class="col-sm-6">
-          <img id="weather-app" src="assets/images/weatherDB.jpg"  alt="current weather" class="img-thumbnail" />
-          <div class="weather-div">
-          <h3><a href="https://reanderson89.github.io/weather-dashboard/">Weather Dashboard</a></h3>
-          <p><a href="https://github.com/reanderson89/weather-dashboard">Weather Dashboard Repository on GitHub</a> </p>
-        </div>
+        <section class="col-sm-12">
+          <img
+            src="assets/images/githubPhoto.jpeg"
+            alt="Man smiling"
+            class="img-thumbnail aboutMe-img"
+          />
+          <p>
+            After coaching Crossfit for roughly 8 years I wanted to try and
+            change up my overall career focus. Though I love coaching I wanted
+            to challenge myself to learn something that is very foreign and new
+            to me. That is why I am here. When I entered the Georgia Tech
+            BootCamp I had zero working knowledge of anything I was getting
+            into, and though that was terrifying it was also very intriguing. I
+            am giving myself a chance to grow and struggle and I believe I will
+            be much better for it in the end. I believe that my years spent as a
+            coach will help me communicate with others and give and receive
+            criticism in an effective manner. I really enjoy working with others
+            and look forward to get started on some cool and fun projects.
+          </p>
         </section>
       </section>
-<!-- work day planner -->
       <section class="row">
-        <section class="col-sm-6">
-          <img
-          id="planner-app"
-            src="assets/images/planner.jpg"
-            alt="daily planner"
-            class="img-thumbnail"
-          />
-          <h3><a href="https://reanderson89.github.io/work-day-scheduler/">Work Day Planner</a></h3>
-          <p><a href="https://github.com/reanderson89/work-day-scheduler">Work Day Planner Repository on GitHub</a> </p>
+        <section class="col-sm-12">
+          <p></p>
         </section>
-        <!-- code quiz -->
-        <section class="col-sm-6">
-          <img
-          id="quiz-app"
-            src="assets/images/quiz.jpg"
-            alt="quiz"
-            class="img-thumbnail"
-          />
-          <div class="code-div">
-          <h3><a href="https://reanderson89.github.io/code-quiz/">Code Quiz</a></h3>
-          <p><a href="https://github.com/reanderson89/code-quiz">Code Quiz Repository on GitHub</a> </p>
-        </div>
+      </section>
+      <section class="row">
+        <section class="col-sm-12">
+          <p class="text">
+            Outside of jumping headfirst into uncharted territory, I find that
+            the things I enjoy most are very simple. I like to spend time with
+            my wife who is a bada$$ nurse. We have two "classy ladies" (senior
+            dogs) who we are very grateful have kept happy and healthy through
+            the years. We will go and hike and be adventurous but we will also
+            spend hours at home cooking and watching netflix. Though I would
+            call myself a homebody I do like to go and hangout with friends
+            either at someones house, a restaurant, brewery, park, maybe even
+            playing some tennis or golf (sports I suck at, but enjoy sucking
+            at).
+          </p>
         </section>
       </section>
     </main>
 
+    <br />
+    <!-- Footer -->
     <footer class="footer">
-      <!-- thin teal line on top of footer -->
+      <!-- Thin teal line ontop of footer -->
       <div class="top"></div>
       <section class="row">
         <!-- main footer -->
@@ -135,5 +136,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="script.js"></script>
+
   </body>
 </html>
