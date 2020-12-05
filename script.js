@@ -24,5 +24,11 @@ $(document).ready(function(){
         $(this).attr('src', 'assets/images/quiz.jpg');
       });
 
+      $('#burger-app').hover(function() {
+        $(this).attr('src', 'assets/gifs/Eat-Da-Burger.gif');
+      }, function() {
+        $(this).attr('src', 'assets/images/Eat-Da-Burger.jpg');
+      });
+
    
 })
