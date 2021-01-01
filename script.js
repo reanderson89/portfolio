@@ -30,5 +30,11 @@ $(document).ready(function(){
         $(this).attr('src', 'assets/images/Eat-Da-Burger.jpg');
       });
 
+      $('#barkmatch-app').hover(function() {
+        $(this).attr('src', 'assets/gifs/BarkMatchDesk.gif');
+      }, function() {
+        $(this).attr('src', 'assets/images/BarkMatch.jpg');
+      });
+
    
-})
+});

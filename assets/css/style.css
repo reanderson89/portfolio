@@ -10,7 +10,7 @@ html {
 
 /* formatting for the name in the top left corner of the page */
 #name {
-    background-color:rgb(54, 153, 146, .8);
+    /* background-color:rgb(54, 153, 146, .8); */
     color:white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
